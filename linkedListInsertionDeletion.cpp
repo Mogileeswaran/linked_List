@@ -6,7 +6,7 @@ using namespace std;
 class Node{
 public:
     int data;
-    struct Node* next;
+    class Node* next;
 };
 class Node* head;
 void print(){
